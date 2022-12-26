@@ -1,0 +1,25 @@
+/* -----start------ */
+body{
+    padding-left: 104px;
+}
+nav{
+    font-size: 26px;
+    display: flex;
+}
+ .container{
+    display: flex;
+    margin-top: 61px;
+ }
+ .taitle{
+    font-size: 39px
+ }  
+ .camera img{
+    width: 267px;
+    padding-left: 173px;
+ } 
+.button{
+    height: 35px;
+    background-color: #E03B8B;
+    border-radius: 11px;
+    color: white;
+}
