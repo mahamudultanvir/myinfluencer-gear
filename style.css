@@ -1,25 +1,51 @@
 /* -----start------ */
-body{
+body {
     padding-left: 104px;
 }
-nav{
+
+nav {
     font-size: 26px;
     display: flex;
 }
- .container{
+
+.container {
     display: flex;
     margin-top: 61px;
- }
- .taitle{
+}
+
+.taitle {
     font-size: 39px
- }  
- .camera img{
+}
+
+.camera img {
     width: 267px;
     padding-left: 173px;
- } 
-.button{
+    
+}
+
+.button {
     height: 35px;
     background-color: #E03B8B;
     border-radius: 11px;
     color: white;
+}
+
+/* ------------logo-------- */
+
+ .logo {
+    display: flex;
+    align-items: center;
+    align-content: stretch;
+    justify-content: center;
+    gap: 5em;
+    margin-top: 144px;
+    padding-right: 102px;
+}
+.popular-taitle{
+    text-align: center;
+    font-size: 42px;
+    margin-top: 98px;
+}
+.all-collection{
+    margin-top: 119px;
 }
