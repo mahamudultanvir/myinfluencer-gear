@@ -1,16 +1,18 @@
 /* -----start------ */
 body {
-    padding-left: 104px;
+    margin: 0;
 }
 
 nav {
     font-size: 26px;
     display: flex;
+    padding-left: 104px;
 }
 
-.container {
+.container-1 {
     display: flex;
     margin-top: 61px;
+    padding-left: 104px;
 }
 
 .taitle {
@@ -20,8 +22,23 @@ nav {
 .camera img {
     width: 267px;
     padding-left: 173px;
-    
+    border-radius: 500px;
+    padding: 40px;
 }
+
+.camera img:hover {
+transform: scale(1.2);
+transition: transform 1s ease-in-out 0.1s;
+}
+
+.camera{
+    border: 2px solid #f7f0ff;
+    border-radius: 500px;
+    margin-left: 8rem;
+    transform: rotate(40dg);
+}
+
+
 
 .button {
     height: 35px;
@@ -31,7 +48,9 @@ nav {
 }
 
 /* ------------logo-------- */
-
+.container-2{
+    padding-left: 104px;
+}
  .logo {
     display: flex;
     align-items: center;
@@ -40,12 +59,96 @@ nav {
     gap: 5em;
     margin-top: 144px;
     padding-right: 102px;
+    
 }
+
+/* -------------popular collection----------------- */
+
+
+.container-3{
+    padding-left: 104px;
+}
+.collection{
+    width: 329px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px rgb(0 0 0 / 15%);
+    padding: 15px;
+    margin: 15px;
+}
+
 .popular-taitle{
-    text-align: center;
-    font-size: 42px;
-    margin-top: 98px;
+    padding-left: 302px;
+    font-size: 38px;
+    margin-bottom: 83px;
 }
+
 .all-collection{
     margin-top: 119px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 40px;
+}
+.See-more{
+    text-decoration: none;
+}
+    
+
+.ancor{
+    display: flex;
+    padding-left: 1043px;
+}
+
+/* ---------Influence-Platform--------- */
+.platfrom-taitle{
+    padding-left: 302px;
+    font-size: 38px;
+    margin-bottom: 83px;
+}
+
+.container-4{
+    padding-left: 104px;
+}
+.Influence-Platform{
+    margin-top: 140px;
+    padding-left: 104px;
+}
+
+.all-influence{
+    
+    display: flex;
+    margin-bottom: 265px;
+    
+}
+
+.youtube-channel{
+    /* display: flex; */
+    width: 49%;
+    width: 329px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px rgb(0 0 0 / 15%);
+    padding: 15px;
+    margin: 15px;
+    padding-left: 145px;
+}
+
+
+
+.btn{
+    background-color: #e02c6d;
+    color: #ffffff;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.Platform-info{
+    padding-left: 27px;
+    margin-top: -21px;
+} 
+
+/* ------footer---------- */
+footer{
+    background-color:  #0a0826;
+    color: white;
+    text-align: center;
+    
 }
