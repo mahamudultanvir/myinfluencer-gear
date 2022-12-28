@@ -27,11 +27,11 @@ nav {
 }
 
 .camera img:hover {
-transform: scale(1.2);
-transition: transform 1s ease-in-out 0.1s;
+    transform: scale(1.2);
+    transition: transform 1s ease-in-out 0.1s;
 }
 
-.camera{
+.camera {
     border: 2px solid #f7f0ff;
     border-radius: 500px;
     margin-left: 8rem;
@@ -48,10 +48,11 @@ transition: transform 1s ease-in-out 0.1s;
 }
 
 /* ------------logo-------- */
-.container-2{
+.container-2 {
     padding-left: 104px;
 }
- .logo {
+
+.logo {
     display: flex;
     align-items: center;
     align-content: stretch;
@@ -59,16 +60,17 @@ transition: transform 1s ease-in-out 0.1s;
     gap: 5em;
     margin-top: 144px;
     padding-right: 102px;
-    
+
 }
 
 /* -------------popular collection----------------- */
 
 
-.container-3{
+.container-3 {
     padding-left: 104px;
 }
-.collection{
+
+.collection {
     width: 329px;
     border-radius: 5px;
     box-shadow: 0px 0px 40px rgb(0 0 0 / 15%);
@@ -76,51 +78,53 @@ transition: transform 1s ease-in-out 0.1s;
     margin: 15px;
 }
 
-.popular-taitle{
+.popular-taitle {
     padding-left: 302px;
     font-size: 38px;
     margin-bottom: 83px;
 }
 
-.all-collection{
+.all-collection {
     margin-top: 119px;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 40px;
 }
-.See-more{
+
+.See-more {
     text-decoration: none;
 }
-    
 
-.ancor{
+
+.ancor {
     display: flex;
     padding-left: 1043px;
 }
 
 /* ---------Influence-Platform--------- */
-.platfrom-taitle{
+.platfrom-taitle {
     padding-left: 302px;
     font-size: 38px;
     margin-bottom: 83px;
 }
 
-.container-4{
+.container-4 {
     padding-left: 104px;
 }
-.Influence-Platform{
+
+.Influence-Platform {
     margin-top: 140px;
     padding-left: 104px;
 }
 
-.all-influence{
-    
+.all-influence {
+
     display: flex;
     margin-bottom: 265px;
-    
+
 }
 
-.youtube-channel{
+.youtube-channel {
     /* display: flex; */
     width: 49%;
     width: 329px;
@@ -131,24 +135,84 @@ transition: transform 1s ease-in-out 0.1s;
     padding-left: 145px;
 }
 
-
-
-.btn{
+.btn {
     background-color: #e02c6d;
     color: #ffffff;
     padding: 10px;
     text-decoration: none;
     border-radius: 5px;
 }
-.Platform-info{
+
+.Platform-info {
     padding-left: 27px;
     margin-top: -21px;
-} 
+}
 
-/* ------footer---------- */
-footer{
-    background-color:  #0a0826;
+/* .fa-star{
+    color:rgb(233, 233, 23);
+} */
+
+/* ------------------------- */
+footer {
+    background-color: #0a0826;
     color: white;
     text-align: center;
-    
+}
+
+/* --------------------
+       mobile */
+/* ---------------- */
+
+@media screen and (max-width: 688px) {
+    .container-1 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 0;
+        padding-left: 36px;
+    }
+
+    .camera {
+        margin-top: 30px;
+        margin-left: -41px;
+
+    }
+
+    .camera img {
+        width: 220px;
+    }
+
+    .container-2,
+    .container-3,
+    .container-4 {
+        padding-left: 0px !important;
+    }
+
+    .logo {
+        margin-top: 40px;
+        padding: 10px;
+        flex-wrap: wrap;
+    }
+
+    .popular-taitle,
+    .platfrom-taitle {
+        padding-left: 0;
+        text-align: center;
+    }
+
+
+    .all-collection {
+        margin-top: 40px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .all-influence {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .youtube-channel {
+        padding-left: 0px;
+    }
+
 }
